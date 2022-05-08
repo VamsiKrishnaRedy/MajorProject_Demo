@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Buses_Activity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Route 1"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 2"
+        android:layout_below="@id/btn_route1"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 3"
+        android:layout_below="@id/btn_route2"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 4"
+        android:layout_below="@id/btn_route3"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 5"
+        android:layout_below="@id/btn_route4"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 6"
+        android:layout_below="@id/btn_route5"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 7"
+        android:layout_below="@id/btn_route6"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_route8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Route 8"
+        android:layout_below="@id/btn_route7"
+        />
+
+
+</RelativeLayout>

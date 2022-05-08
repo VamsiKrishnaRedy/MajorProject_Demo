@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24"
+
+
+        />
+
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_person_24"
+
+
+        />
+    <item android:title="Bus List"
+        android:id="@+id/list"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_directions_bus_24"
+
+
+        />
+    <item android:title="Notifications"
+        android:id="@+id/notify"
+        android:enabled="true"
+       android:icon="@drawable/ic_baseline_notifications_active_24"
+
+        />
+
+    <item android:title="SOS"
+        android:id="@+id/sos"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_phonelink_ring_24"
+
+
+        />
+
+    <item android:title="Complaints"
+        android:id="@+id/complaints"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_comment_24"
+        />
+
+    <item android:title="About us"
+        android:id="@+id/aboutus"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_group_24"
+
+
+        />
+
+
+
+
+
+
+</menu>
